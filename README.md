@@ -138,3 +138,4 @@ Executed the pipeline. Screenshot in docs.
 
 9. First clone this repo and then install the requirements.txt in your environment. Edit your anamoly_detection.py and aiops_pipeline.py and fix the errors mentioned. Then Run the aiops_pipeline.py
 
+### Google Docs link For Screenshots - https://docs.google.com/document/d/12lKtMoIF6wB9BBImLIxSURnNgcQL-xsLM-O7bezt7Xw/edit?usp=sharing
