@@ -50,7 +50,7 @@ The observations with "log_level"= "ERROR" appear to represent unusual behaviour
 
 Fixed the error where the log level checked "WARNING" instead of "ERROR"
 
-One improvement can be using models like Isolation forest to detect anamoly instead of simple rule based fixed metrics check.
+One improvement can be using models like Isolation forest to detect anomaly instead of simple rule based fixed metrics check.
 
 ## Task 4
 
@@ -134,7 +134,7 @@ Executed the pipeline. Screenshot in docs.
 
         Fixed by changing the consumer_topic to topic to use the same topic as the producer
 
-8. The current anamoly detction uses a simple threshold to detect the anamolies, We can use other ML models like Isolation Forest to detect these anamolies instead.
+8. The current anomaly detction uses a simple threshold to detect the anomalies, We can use other ML models like Isolation Forest to detect these anomalies instead.
 
 9. First clone this repo and then install the requirements.txt in your environment. Edit your anamoly_detection.py and aiops_pipeline.py and fix the errors mentioned. Then Run the aiops_pipeline.py
 
