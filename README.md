@@ -16,3 +16,42 @@ Good luck!
 
 &copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 
+---
+
+# Part 1: Set Up and Understand the Environment
+
+## Task 1:
+
+A payment service is being monitored through this data.
+
+It is being monitored that whether a payment is succesfully completed or not.
+
+Through AIops we are monitoring the whole payment system and looking for any system failure in case of a payment being failed
+
+
+# Part 2: Prepare and Inspect Operational Data
+
+## Task 2:
+
+The fields "response_time_ms", "cpu_percent", "memory_percent" represent the metrics.
+
+The fields "log_level" and "message" are the log type and the log message which represents log informations.
+
+Timestamps are used to get the information about when the error or the fault happened in our service.
+
+The observations with "log_level"= "INFO" appear to represent normal behaviour. 
+
+The observations with "log_level"= "ERROR" appear to represent unusual behaviour. 
+
+
+# Part 3: Validate Anomaly Detection & Event Streaming Workflow
+
+## Task 3
+
+Fixed the error where the log level checked "WARNING" instead of "ERROR"
+
+One improvement can be using models like Isolation forest to detect anamoly instead of simple rule based fixed metrics check.
+
+## Task 4
+
+
