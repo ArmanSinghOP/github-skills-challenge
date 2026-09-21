@@ -54,4 +54,29 @@ One improvement can be using models like Isolation forest to detect anamoly inst
 
 ## Task 4
 
+Ran and screenshot attached in the docs.
 
+
+# Part 4: Troubleshoot & Demonstrate the AIOps Workflow
+
+## Task 5
+
+In anomaly_detector.py:
+
+Fixed the error detections using the log_level from "log"
+
+In aiops_pipeline.py :
+
+Fixed by changing the producer_topic to topic
+
+Fixed by changing the consumer_topic to topic to use the same topic as the producer
+
+## Task 6
+
+Executed the pipeline. Screenshot in docs.
+
+# Part 5: Document Your Findings
+
+## Task 7: Update the README
+
+1. 
